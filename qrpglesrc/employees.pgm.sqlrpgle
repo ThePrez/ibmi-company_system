@@ -105,7 +105,7 @@ Dcl-Proc LoadSubfile;
                          + %TrimR(Employee.FIRSTNME);
         XJOB  = Employee.JOB;
 
-        rrn += 1;
+        Rrn += 1;
         Write SFLDTA;
       endif;
     enddo;
